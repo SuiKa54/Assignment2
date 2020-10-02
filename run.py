@@ -87,7 +87,7 @@ s6 = ((P>>R)>>(Q|(~P&R)))
 s5nnf = [
     [(~R>>(Q&~P))|~(~R|P), 'starting formula'],
     [(~R>>(Q&~P))|(R&~P), 'right side: de Morgans, double negation elimination.'],
-    [R|(Q&~P)|(R&~P), ' Left side: replace implication, double negation elimination'],
+    [R|(Q&~P)|(R&~P), ' Left side: replace implication, double negation elimination']
 ]
 
 s6nnf = [
